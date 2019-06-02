@@ -6,7 +6,7 @@ class Viewer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            endpoint: "http://localhost:3001",
+            endpoint: process.env.REACT_APP_SOCKET_URL,
             data : []
         };
 
