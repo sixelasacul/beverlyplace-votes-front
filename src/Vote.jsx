@@ -18,11 +18,8 @@ export default class Vote extends Component {
     }
 
     render() {
-        const {xOrigin, yOrigin, width, height, playerName, playerNumber} = this.props;
-        const rectXOrigin = xOrigin + 25;
+        const {xOrigin, yOrigin, width, height, playerName} = this.props;
         const rectYOrigin = yOrigin + 25;
-
-        console.log("playerName : ", playerName);
         
         return (
             <Group>
